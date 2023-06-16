@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\1_Point_Ship.png" />
+    <None Remove="images\2_Point_Ship.png" />
+    <None Remove="images\3_Point_Ship.png" />
+    <None Remove="images\4_Point_Ship.png" />
+    <None Remove="images\explosion.gif" />
+    <None Remove="images\page1.jpg" />
+    <None Remove="images\page2.jpg" />
+    <None Remove="images\page3.jpg" />
+    <None Remove="images\page4.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="WpfAnimatedGif" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="images\explosion.gif" />
+    <Resource Include="images\page1.jpg" />
+    <Resource Include="images\page2.jpg" />
+    <Resource Include="images\page3.jpg" />
+    <Resource Include="images\page4.png" />
+  </ItemGroup>
+
+</Project>

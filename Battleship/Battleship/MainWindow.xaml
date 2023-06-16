@@ -1,0 +1,13 @@
+﻿<Window x:Class="Battleship.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Battleship" d:DataContext="{d:DesignInstance Type=local:ViewModelBase}"
+        mc:Ignorable="d"
+        FontSize="24"
+        Title="Battleship" Height="810" Width="1620">
+    <Grid>
+        <Frame x:Name="MyFrame" />
+    </Grid>
+</Window>
