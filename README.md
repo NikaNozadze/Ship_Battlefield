@@ -14,3 +14,5 @@ Placed:
 3 ships - a row of 2 cells ("two-deck"; destroyers)
 
 4 ships - 1 cell ("single-deck"; torpedo boats)
+
+In this version, the player plays with a shooter engine.
